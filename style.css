@@ -1,0 +1,127 @@
+*{
+padding: 0px;
+border: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#218380;
+    text-align: center;
+    padding: 20px;
+  ;    
+}
+h1{
+    padding: 60px;
+    color: red;
+    font-size: larger;
+    padding: 15px;
+  
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    padding: 10px;
+
+}
+
+.box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+   
+    
+}
+.bt{
+    height: 18vmin;
+    width: 18vmin;
+    padding: 15px;
+    border: 1px solid black;
+    color: brown;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 10vmin;
+    background-color: white;
+}
+.reset{
+    color: red;
+    background-color:royalblue;
+    width: 250px;
+    height: 50px;
+    
+    font-size: large;
+}
+.reset:hover{
+    background-color:gray ;
+    color: black;
+}
+
+.newgame{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    color:black;
+    padding: 20px;
+    font-size:large;
+    margin: 20px;
+}
+.newgame:hover{
+    background-color: black;
+    color: azure;
+    height: 50px;
+    width: 350px;
+    animation-timing-function: cubic-bezier(1,1,1,1);
+}
+#ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;   
+    font-size: 2rem; 
+    color: red;
+
+}
+#yoursc{
+    height: 5rem;
+    width: 20rem;
+    background-color: black;
+    border-radius: 40px;
+}
+#comsc{
+    height: 5rem;
+    width: 22rem;
+    background-color:black;
+    border-radius: 40px;
+}
+#yc{
+    color: blue;
+}
+#cc{
+    color: blue;
+}
+#yoursc:hover{
+background-color: gray;
+color: black;
+}
+#comsc:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+
